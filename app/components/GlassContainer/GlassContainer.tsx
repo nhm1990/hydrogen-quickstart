@@ -8,7 +8,7 @@ export const NB_FLOORS = 3;
 
 export const GlasContainer = (): JSX.Element => {
   const {scene, nodes, materials} = useGLTF(
-    'https://threejs.org/examples/?q=gltf#webgl_loader_gltf_avif',
+    'https://modelviewer.dev/shared-assets/models/Astronaut.glb',
   );
   const ref = useRef<any>();
   const tl = useRef<any>();
